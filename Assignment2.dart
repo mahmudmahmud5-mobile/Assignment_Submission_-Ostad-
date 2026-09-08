@@ -92,8 +92,9 @@ void main(){
   while(again.toLowerCase() =='y'){
     converter();
 
-    print("Do you want to perform another conversion?(y/n)");
-    again=stdin.readLineSync()!;
+
+//    print("Do you want to perform another conversion?(y/n)");
+  //  again=stdin.readLineSync()!;
 
   if (again.toLowerCase() == "n") {
     print("------------------------------");
